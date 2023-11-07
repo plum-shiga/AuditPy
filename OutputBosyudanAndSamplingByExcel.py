@@ -33,8 +33,16 @@ output
 def aaa() -> int:
     return 0
 
-zenki: list[str]
-touki: list[str]
+zenki: list[str] = []
+touki: list[str] = []
 
-with open() as f:
-    f.readline()
+with open('./f1.txt', 'r') as f:
+    zenki = f.readlines()
+with open('./f2.txt', 'r') as f:
+    touki = f.readlines()
+
+print('zenki ===')
+print(zenki)
+print('touki ===')
+print(touki)
+
