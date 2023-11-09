@@ -33,8 +33,12 @@ output
 def aaa() -> int:
     return 0
 
-zenki: list[str] = []
-touki: list[str] = []
+# zenki: list[str] = []
+# touki: list[str] = []
+zenki = []
+touki = []
+
+print('aaaaaaa')
 
 with open('./f1.txt', 'r') as f:
     zenki = f.readlines()
