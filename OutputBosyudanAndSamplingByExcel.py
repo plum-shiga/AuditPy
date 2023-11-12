@@ -30,7 +30,7 @@ output
 
 '''
 
-def aaa() -> int:
+def irekae(list) -> int:
     return 0
 
 # zenki: list[str] = []
@@ -49,4 +49,7 @@ print('zenki ===')
 print(zenki)
 print('touki ===')
 print(touki)
+
+print('irekae ===')
+print(irekae(zenki))
 
