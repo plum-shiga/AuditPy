@@ -30,13 +30,18 @@ output
 
 '''
 
+'''
 def irekae(list) -> int:
     return 0
+'''
+def irekae(list) -> int:
+    return list[0][0]
 
 # zenki: list[str] = []
 # touki: list[str] = []
 zenki = []
 touki = []
+output = [['前期', '当期', '当期母集団', 'サンプリング']]
 
 print('aaaaaaa')
 
@@ -51,5 +56,5 @@ print('touki ===')
 print(touki)
 
 print('irekae ===')
-print(irekae(zenki))
+print(irekae(output))
 
